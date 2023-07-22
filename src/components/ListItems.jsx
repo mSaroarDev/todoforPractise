@@ -46,7 +46,7 @@ const ListItems = () => {
                 <li>
                   <div className="task">
                     <span onClick={()=>compTask(index)} className="mr-3 cursor-pointer">
-                    { check ? <i class="fa-solid fa-check"></i> : <i class="fa-regular fa-circle"></i>}
+                    { check ? <i className="fa-solid fa-check"></i> : <i className="fa-regular fa-circle"></i>}
                     </span>
                     {taskItem}
                   </div>
